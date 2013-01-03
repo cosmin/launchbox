@@ -5,7 +5,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(name='launchbox',
-      version='0.1',
+      version='0.1.1',
       description='Packaging and dependency resolution for chef-solo cookbooks',
       long_description=read('README.rst'),
       keywords="chef chef-solo dependency package bundle",
